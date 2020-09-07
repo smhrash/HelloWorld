@@ -15,7 +15,4 @@ public class Questions5 {
 
     }
 
-
-
-
 }
