@@ -48,7 +48,8 @@ public class LearnArrayList {
         }
 
 
-        Employee emp1=new Employee("Sarker Rahid",35,"Admin");
+        Employee emp1=new Employee("Sarker",35,"Admin");
+        Employee emp4=new Employee("Rahid",32,"HR");
         Employee emp2=new Employee("Sami",30,"QA");
         Employee emp3=new Employee("Maoya",36,"Dev");
 
@@ -58,6 +59,7 @@ public class LearnArrayList {
         emp.add(emp1);
         emp.add(emp2);
         emp.add(emp3);
+        emp.add(emp4);
 
         Iterator<Employee> it = emp.iterator();
         while (it.hasNext()){
@@ -70,12 +72,12 @@ public class LearnArrayList {
 
         ArrayList<String> names1 = new ArrayList<String>();
         names1.add("James Camerun");
-        names1.add("Sarker Mizan");
+        names1.add("Sarker Salah");
         names1.add("Sami Haque");
 
         ArrayList<String> names2 = new ArrayList<String>();
         names2.add("Rony Miah");
-        names2.add("Rashid Rahman");
+        names2.add("Rashid Khalid");
         names2.add("Sheikh Rasel");
 
         names1.addAll(names2);

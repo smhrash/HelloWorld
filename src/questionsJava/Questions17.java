@@ -10,11 +10,11 @@ public class Questions17 {
         int num = 20;
         int t1 = 0;
         int t2 = 1;
-        for (int i = 0; i <=num; i++){
-            int sum = t1+t2;
-            t1=t2;
-            t2= sum;
-            System.out.print(sum+" ");
+        for (int i = 0; i <= num; i++) {
+            int sum = t1 + t2;
+            t1 = t2;
+            t2 = sum;
+            System.out.print(sum + " ");
 
         }
 
